@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: rgb(246,246,246);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(246,246,246);
+    
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(246,246,246);
+    padding: 200px 20px 0px;
+    line-height: 1.6;
+}
+.header {
+    background-color: rgb(246,246,246);
+    padding: 2%;
+    text-align: center;
+    /* min-height: 150px;
+    width: 20%; */
+
+}
+
+.content {
+    background-color: rgb(246,246,246);
+    min-height: 150px;
+    padding: 20px
+}
+
+.exames {
+    background-color: rgb(246,246,246);
+    min-height: 150px;
+    padding: 20px
+   
+}
+
+.casa {
+    background-color: rgb(240, 238, 238);
+    min-height: 150px;
+    padding: 20px
+    
+}
+
+.footer {
+    background-color: rgb(246,246,246);
+    min-height: 150px;
+    text-align: center;
+    
+}
+
+a:link {
+    color: rgb(29, 6, 6);
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: rgb(56, 53, 53);
+    text-decoration: none;
+  }
+
+  .row{ 
+    margin:5px;
+
+}
+
+
+label{ 
+    width: 100px;
+    text-align:right;
+    display:inline-block;
+    padding-right: 5px;
+}
+
+fieldset {
+margin: 5px;
+border-radius: 10px;
+border-color: grey;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 20px
+  }
+
+  .unidades { 
+    background-color: #00316c;
+    min-height: 150px;
+    padding: 20px
+
+  }
+
+  .endereços {
+        background-color: #cecece;
+        min-height: 400px;
+        padding: 20px
+  }
